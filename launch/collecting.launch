@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- data collecting -->
+  <node pkg="imu_classfication" type="clicked_cam.py" name="manual_cam"/>
+  <node pkg="imu_classfication" type="camera.py" name="auto_cam"/>
+  <node pkg="imu_classfication" type="manual_csv.py" name="manual_csv"/>
+  <node pkg="imu_classfication" type="auto_csv.py" name="auto_csv"/>
+
+</launch>
